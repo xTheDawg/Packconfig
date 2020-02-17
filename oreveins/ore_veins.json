@@ -1,0 +1,280 @@
+{
+  "Coal_Large": {
+    "type": "cluster",
+    "count": 3,
+    "ore": "ore:oreCoal",
+    "stone": "minecraft:stone",
+    "rarity": 75,
+    "min_y": 0,
+    "max_y": 120,
+    "density": 10,
+    "vertical_size": 40,
+    "horizontal_size": 25,
+    "biomes": [
+      "dead_forest",
+      "bamboo_forest",
+      "bog",
+      "boreal_forest",
+      "brushland",
+      "chapparal",
+      "cherry_blossom_grove",
+      "fen",
+      "flower_field",
+      "grassland",
+      "grove",
+      "mangrove",
+      "maple_woods",
+      "meadow",
+      "orchard",
+      "prairie",
+      "rainforest",
+      "seasonal_forest",
+      "shrubland",
+      "steppe",
+      "wetland",
+      "woodland",
+      "plains",
+      "sunflower_plains",
+      "forest",
+      "lower_forest",
+      "birch_forest",
+      "tall_birch_forest",
+      "dark_forest",
+      "dark_forest_hills"
+    ]
+  },
+  "Coal_mixed": {
+    "type": "sphere",
+    "ore": [
+      {
+        "ore": "oreCoal",
+        "weight": 59
+      },
+      {
+        "block": "minecraft:diamond_ore",
+        "weight": 3
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 100,
+    "min_y": 0,
+    "max_y": 30,
+    "density":50,
+    "vertical_size": 20,
+    "horizontal_size": 20,
+    "biomes": [
+      "dead_forest",
+      "bamboo_forest",
+      "bog",
+      "boreal_forest",
+      "brushland",
+      "chapparal",
+      "cherry_blossom_grove",
+      "fen",
+      "flower_field",
+      "grassland",
+      "grove",
+      "mangrove",
+      "maple_woods",
+      "meadow",
+      "orchard",
+      "prairie",
+      "rainforest",
+      "seasonal_forest",
+      "shrubland",
+      "steppe",
+      "wetland",
+      "woodland",
+      "plains",
+      "sunflower_plains",
+      "forest",
+      "lower_forest",
+      "birch_forest",
+      "tall_birch_forest",
+      "dark_forest",
+      "dark_forest_hills"
+    ]
+  },
+  "Iron_Large": {
+    "type": "cluster",
+    "count": 1,
+    "ore": [
+      {
+        "ore": "oreIron",
+        "weight": 35
+      },
+      {
+        "ore": "oreNickel",
+        "weight": 5
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 100,
+    "min_y": 0,
+    "max_y": 180,
+    "density": 20,
+    "vertical_size": 70,
+    "horizontal_size": 40,
+    "biomes": [
+      "crag",
+      "highland",
+      "mountain",
+      "overgrown_cliffs",
+      "extreme_hills",
+      "extreme_hills_with_trees",
+      "mutated_extreme_hills",
+      "mutated_extreme_hills_with_trees",
+      "smaller_extreme_hills",
+      "alps"
+    ]
+  },
+    "Redstone_Large": {
+    "type": "cluster",
+    "count": 1,
+    "ore": [
+      {
+        "ore": "oreRedstone",
+        "weight": 35
+      },
+      {
+        "block": "minecraft:lapis_ore",
+        "weight": 5
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 100,
+    "min_y": 0,
+    "max_y": 40,
+    "density": 80,
+    "vertical_size": 20,
+    "horizontal_size": 50,
+    "biomes": [
+      "desert",
+      "desert_hills",
+      "mutated_desert",
+      "xeric_shrubland"
+    ]
+  },
+  "Copper_Large": {
+    "type": "cluster",
+    "count": 1,
+    "ore": [
+      {
+        "ore": "oreCopper",
+        "weight": 35
+      },
+      {
+        "ore": "oreGold",
+        "weight": 5
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 100,
+    "min_y": 0,
+    "max_y": 180,
+    "density": 50,
+    "vertical_size": 70,
+    "horizontal_size": 40,
+    "biomes": [
+      "redwood_forest",
+      "quagmire",
+      "coniferous_forest",
+      "taiga",
+      "taiga_hills",
+      "taiga_cold",
+      "taiga_cold_hills",
+      "redwood_taiga",
+      "redwood_taiga_hills",
+      "mutated_taiga",
+      "mutated_taiga_cold",
+      "mutated_redwood_taiga",
+      "mutated_redwood_taiga_hills"
+    ]
+  },
+    "Aluminum_Large": {
+    "type": "cluster",
+    "count": 1,
+    "ore": [
+      {
+        "ore": "oreAluminum",
+        "weight": 35
+      },
+      {
+        "ore": "oreGold",
+        "weight": 5
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 100,
+    "min_y": 0,
+    "max_y": 100,
+    "density": 50,
+    "vertical_size": 70,
+    "horizontal_size": 40,
+    "biomes": [
+      "quagmire",
+      "outback",
+      "shrubland",
+      "eucalyptus forest",
+      "jungle",
+      "jungle_hills"
+    ]
+  },
+  "Galanite_Large": {
+    "type": "cluster",
+    "count": 1,
+    "ore": [
+      {
+        "ore": "oreSilver",
+        "weight": 25
+      },
+      {
+        "ore": "oreLead",
+        "weight": 15
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 50,
+    "min_y": 0,
+    "max_y": 100,
+    "density": 70,
+    "vertical_size": 50,
+    "horizontal_size": 30,
+    "biomes": [
+      "bayou",
+      "swampland",
+      "mutated_swampland",
+      "dead_swamp",
+      "lush_swamp",
+      "mangrove",
+      "moor",
+      "wetland"
+    ]
+  },
+  "Uranium": {
+    "type": "cluster",
+    "count": 3,
+    "ore": [
+      {
+        "ore": "oreUranium",
+        "weight": 50
+      },
+      {
+        "ore": "oreLead",
+        "weight": 5
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 150,
+    "min_y": 0,
+    "max_y": 30,
+    "density": 100,
+    "vertical_size": 10,
+    "horizontal_size": 10,
+    "biomes": [
+      "alps",
+      "cold_desert",
+      "glacier"
+    ]
+  }
+}
