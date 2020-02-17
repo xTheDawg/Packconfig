@@ -1,46 +1,29 @@
 {
   "Coal_Large": {
     "type": "cluster",
-    "count": 3,
+    "count": 1,
     "ore": "ore:oreCoal",
     "stone": "minecraft:stone",
-    "rarity": 75,
-    "min_y": 0,
-    "max_y": 120,
-    "density": 10,
+    "rarity": 100,
+    "min_y": 35,
+    "max_y": 90,
+    "density": 15,
     "vertical_size": 40,
-    "horizontal_size": 25,
+    "horizontal_size": 15,
     "biomes": [
-      "dead_forest",
-      "bamboo_forest",
-      "bog",
-      "boreal_forest",
       "brushland",
       "chapparal",
-      "cherry_blossom_grove",
-      "fen",
       "flower_field",
       "grassland",
       "grove",
-      "mangrove",
-      "maple_woods",
       "meadow",
       "orchard",
       "prairie",
-      "rainforest",
-      "seasonal_forest",
       "shrubland",
       "steppe",
       "wetland",
-      "woodland",
       "plains",
-      "sunflower_plains",
-      "forest",
-      "lower_forest",
-      "birch_forest",
-      "tall_birch_forest",
-      "dark_forest",
-      "dark_forest_hills"
+      "sunflower_plains"
     ]
   },
   "Coal_mixed": {
@@ -48,51 +31,34 @@
     "ore": [
       {
         "ore": "oreCoal",
-        "weight": 59
+        "weight": 60
       },
       {
         "block": "minecraft:diamond_ore",
-        "weight": 3
+        "weight": 5
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 100,
+    "rarity": 130,
     "min_y": 0,
-    "max_y": 30,
+    "max_y": 35,
     "density":50,
-    "vertical_size": 20,
-    "horizontal_size": 20,
+    "vertical_size": 25,
+    "horizontal_size": 25,
     "biomes": [
-      "dead_forest",
-      "bamboo_forest",
-      "bog",
-      "boreal_forest",
       "brushland",
       "chapparal",
-      "cherry_blossom_grove",
-      "fen",
       "flower_field",
       "grassland",
       "grove",
-      "mangrove",
-      "maple_woods",
       "meadow",
       "orchard",
       "prairie",
-      "rainforest",
-      "seasonal_forest",
       "shrubland",
       "steppe",
       "wetland",
-      "woodland",
       "plains",
-      "sunflower_plains",
-      "forest",
-      "lower_forest",
-      "birch_forest",
-      "tall_birch_forest",
-      "dark_forest",
-      "dark_forest_hills"
+      "sunflower_plains"
     ]
   },
   "Iron_Large": {
@@ -114,7 +80,7 @@
     "max_y": 180,
     "density": 20,
     "vertical_size": 70,
-    "horizontal_size": 40,
+    "horizontal_size": 50,
     "biomes": [
       "crag",
       "highland",
@@ -129,8 +95,7 @@
     ]
   },
     "Redstone_Large": {
-    "type": "cluster",
-    "count": 1,
+    "type": "sphere",
     "ore": [
       {
         "ore": "oreRedstone",
@@ -145,9 +110,9 @@
     "rarity": 100,
     "min_y": 0,
     "max_y": 40,
-    "density": 80,
-    "vertical_size": 20,
-    "horizontal_size": 50,
+    "density": 50,
+    "vertical_size": 30,
+    "horizontal_size": 30,
     "biomes": [
       "desert",
       "desert_hills",
@@ -174,7 +139,7 @@
     "max_y": 180,
     "density": 50,
     "vertical_size": 70,
-    "horizontal_size": 40,
+    "horizontal_size": 45,
     "biomes": [
       "redwood_forest",
       "quagmire",
@@ -205,12 +170,12 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 100,
+    "rarity": 125,
     "min_y": 0,
-    "max_y": 100,
-    "density": 50,
-    "vertical_size": 70,
-    "horizontal_size": 40,
+    "max_y": 60,
+    "density": 60,
+    "vertical_size": 30,
+    "horizontal_size": 20,
     "biomes": [
       "quagmire",
       "outback",
@@ -234,13 +199,14 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 50,
+    "rarity": 125,
     "min_y": 0,
-    "max_y": 100,
+    "max_y": 60,
     "density": 70,
-    "vertical_size": 50,
-    "horizontal_size": 30,
+    "vertical_size": 30,
+    "horizontal_size": 20,
     "biomes": [
+      "bog",
       "bayou",
       "swampland",
       "mutated_swampland",
@@ -265,7 +231,7 @@
       }
     ],
     "stone": "minecraft:stone",
-    "rarity": 150,
+    "rarity": 200,
     "min_y": 0,
     "max_y": 30,
     "density": 100,
@@ -275,6 +241,29 @@
       "alps",
       "cold_desert",
       "glacier"
+    ]
+  },
+    "Gems": {
+    "type": "sphere",
+    "ore": [
+      {
+        "block": "minecraft:emerald_ore",
+        "weight": 5
+      },
+      {
+        "block": "minecraft:diamond_ore",
+        "weight": 10
+      }
+    ],
+    "stone": "minecraft:stone",
+    "rarity": 250,
+    "min_y": 0,
+    "max_y": 35,
+    "density":100,
+    "vertical_size": 5,
+    "horizontal_size": 5,
+    "biomes": [
+      "origin_island"
     ]
   }
 }
